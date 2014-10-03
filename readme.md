@@ -2,6 +2,7 @@
 
 Provides replacement for default sublime cursors appending.
 
+
 ### Demo
 
 ![Demo](https://raw.github.com/shagabutdinov/sublime-append-selection/master/demo/demo.gif "Demo")
