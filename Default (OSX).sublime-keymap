@@ -1,0 +1,40 @@
+[
+  {
+    "keys": ["alt+c"],
+    "command": "append_seletion"
+  },
+
+  {
+    "keys": ["alt+shift+c"],
+    "command": "append_seletion",
+    "args": {
+      "backward": true,
+    }
+  },
+
+  {
+    "keys": ["alt+ctrl+c"],
+    "command": "append_seletion",
+    "args": {
+      "word": true,
+    }
+  },
+
+  {
+    "keys": ["alt+ctrl+shift+c"],
+    "command": "append_seletion",
+    "args": {
+      "word": true,
+      "backward": true,
+    }
+  },
+
+  {
+    "keys": ["ctrl+shift+c"],
+    "command": "append_seletion",
+    "args": {
+      "repeat_last_with_skip": true,
+    }
+  },
+
+]

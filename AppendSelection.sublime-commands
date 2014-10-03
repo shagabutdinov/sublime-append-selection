@@ -1,0 +1,39 @@
+[
+  {
+    "caption": "AppendSelection: Append next",
+    "command": "append_seletion",
+  },
+
+  {
+    "caption": "AppendSelection: Append previous",
+    "command": "append_seletion",
+    "args": {
+      "backward": true,
+    }
+  },
+
+  {
+    "caption": "AppendSelection: Append next word",
+    "command": "append_seletion",
+    "args": {
+      "word": true,
+    }
+  },
+
+  {
+    "caption": "AppendSelection: Append previous word",
+    "command": "append_seletion",
+    "args": {
+      "word": true,
+      "backward": true,
+    }
+  },
+
+  {
+    "caption": "AppendSelection: Skip last",
+    "command": "append_seletion",
+    "args": {
+      "repeat_last_with_skip": true,
+    }
+  },
+]
