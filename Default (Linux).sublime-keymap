@@ -1,7 +1,10 @@
 [
   {
     "keys": ["alt+c"],
-    "command": "append_seletion"
+    "command": "append_seletion",
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -9,7 +12,10 @@
     "command": "append_seletion",
     "args": {
       "backward": true,
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -17,7 +23,10 @@
     "command": "append_seletion",
     "args": {
       "word": true,
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -26,7 +35,10 @@
     "args": {
       "word": true,
       "backward": true,
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -34,7 +46,10 @@
     "command": "append_seletion",
     "args": {
       "repeat_last_with_skip": true,
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
 ]

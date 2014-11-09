@@ -5,7 +5,7 @@ Provides replacement for default sublime cursors appending.
 
 ### Demo
 
-![Demo](https://raw.github.com/shagabutdinov/sublime-append-selection/master/demo/demo.gif "Demo")
+![Demo](https://github.com/shagabutdinov/sublime-enhanced-demos/raw/master/append_selection.gif "Demo")
 
 
 ### Reason
@@ -50,3 +50,8 @@ cursors. You can also skip last cursor and go to next selection.
 | Append next word     | alt+ctrl+c         | AppendSelection: append next word     |
 | Append previous word | alt+ctrl+shift+c   | AppendSelection: append previous word |
 | Skip cursor          | ctrl+shift+c       | AppendSelection: skip last            |
+
+
+### Dependencies
+
+None
